@@ -2,8 +2,8 @@
 #include <unistd.h>
 #include <hiredis/hiredis.h>
 
-#ifndef HEADER_ZUTIL_REDIS_H
-#define HEADER_ZUTIL_REDIS_H
+#ifndef HEADER_ZDLIBC_REDIS_H
+#define HEADER_ZDLIBC_REDIS_H
 
 int redis_init(void);
 
@@ -37,4 +37,4 @@ uint32_t redis_getconf_uint32_t(const char*);
 
 int redis_setconf_uint32_t(const char*, uint32_t);
 
-#endif
+#endif//HEADER_ZDLIBC_REDIS_H

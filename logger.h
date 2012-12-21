@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdarg.h>
 
-#ifndef _LOGGER_H_
-#define _LOGGER_H_
+#ifndef HEADER_ZDLIBC_LOGGER_H
+#define HEADER_ZDLIBC_LOGGER_H
 
 enum LogLevel { LOG_FATAL, LOG_ERROR, LOG_WARN, LOG_INFO, LOG_DEBUG, LOG_TRACE,
 					NUM_LOGLEVELS };
@@ -25,5 +25,5 @@ size_t dstrftime(char *, size_t, const char *, double);
 
 double now();
 
-#endif//_LOGGER_H_
+#endif//HEADER_ZDLIBC_LOGGER_H
 

@@ -1,7 +1,7 @@
 #include <stdint.h>
 
-#ifndef HEADER_ZMAP_BLACKLIST_H
-#define HEADER_ZMAP_BLACKLIST_H
+#ifndef HEADER_ZDLIBC_BLACKLIST_H
+#define HEADER_ZDLIBC_BLACKLIST_H
 
 int blacklist_init(char*);
 int blacklist_is_blacklisted(uint32_t s_addr);

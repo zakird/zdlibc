@@ -1,7 +1,7 @@
 #include <postgresql/libpq-fe.h>
 
-#ifndef HEADER_HUBBLE_PGPOOL_H
-#define HEADER_HUBBLE_PGPOOL_H
+#ifndef HEADER_ZDLIBC_PGPOOL_H
+#define HEADER_ZDLIBC_PGPOOL_H
 
 int pgpool_init(int, char*);
 
@@ -13,5 +13,4 @@ PGconn * pgpool_getfreeconn(void);
 
 PGconn *pgpool_getanyconn(void); 
 
-
-#endif
+#endif //HEADER_ZDLIBC_PGPOOL_H
