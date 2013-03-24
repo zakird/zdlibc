@@ -54,7 +54,7 @@
 #define FORCE_C_ONLY          1  /* ANSI C and 64-bit integers req'd     */
 #define GLADMAN_AES           0  /* Change to 1 to use Gladman's AES     */
 #define SSE2                  0  /* Is SSE2 is available?                */
-#define RUN_TESTS             1  /* Run basic correctness/speed tests    */ 
+#define RUN_TESTS             0  /* Run basic correctness/speed tests    */ 
 
 /* ---------------------------------------------------------------------- */
 /* -- Global Includes --------------------------------------------------- */
